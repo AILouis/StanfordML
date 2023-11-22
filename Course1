@@ -1,0 +1,13 @@
+Supervised Learning
+X -> Y mappings
+Learn from data labeled with "right answers"
+1/ Regression algorithm: predict numbers (infinite possible outputs - Continuous)
+2/ Classification algorithm: predict categories (not necessarily numbers), only finite possible outputs (Discrete)
+E.g. breast cancer detection: 3 possible outputs
+
+Unsupervised Learning
+Unlabeled: X give the algorithm the "right ans"
+Let itself find some pattern in the data
+1/ Clustering (grouping)(Panda) algorithm: groups data with same patterns tgt into different clusters
+E.g. Recommended articles/ videos on Google/ Youtube < not feasible if done by ppl! 9999 News everyday
+2/ Other algorithms will be discussed later
