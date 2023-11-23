@@ -19,4 +19,4 @@ Terminologies
 - Output/ target variable: y
 - No of training examples: m
 - Single training example = (x, y)
-- i th training example = (x^(i)$, y^(i)$)
+- i th training example = (x^(i), y^(i))
