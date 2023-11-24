@@ -12,11 +12,23 @@ Let itself find some pattern in the data
 E.g. Recommended articles/ videos on Google/ Youtube < not feasible if done by ppl! 9999 News everyday
 2/ Other algorithms will be discussed later
 
+Univariate linear regression: one variable linear regression (only one input x)
 
 Terminologies
 - Training set: Data used to train the model
-- Input variable: x
+- Input/ feature variable: x
 - Output/ target variable: y
 - No of training examples: m
 - Single training example = (x, y)
 - i th training example = (x^(i), y^(i))
+
+Training set -> Learning algorithm -> function f (hypothesis) (the model)
+x -> f -> y-hat (estimate of y, may or may not be the true value)
+y = target = actual true value
+
+How to compute f?
+Linear model: y= wx + b
+w, b: parameters/ coefficients/ weights
+
+Cost function: tell us how good the model is performing
+Error = Summation1-m (y-hat -y)^2
